@@ -1,0 +1,258 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #DCDCDC;
+}
+
+h1{
+    font-size: 70px
+}
+
+.OUTDOOR{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.filtre{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(87, 81, 81, 0.575);
+    width: 100%;
+}
+
+.filtre_BLOCK6{
+    background-color: rgba(87, 81, 81, 0.575);
+    opacity: 0.5;
+
+}
+
+.LOGO{
+    background-repeat: no-repeat;
+
+
+    width: 50%;
+    margin-left: 50px;
+}
+
+ul{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.button{
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    background-color:rgb(251, 32, 86)
+}
+
+.button2{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    margin: 40px;    
+
+    background-color:rgb(251, 32, 86)
+
+}
+
+.button3{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    width: 130px;
+    text-align: center;
+
+    background-color:rgb(251, 32, 87)
+
+}
+
+nav{
+
+    margin-bottom: 170px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+header{
+    background-image: url(/images/hero-bg.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+.petite_barre{
+    border-top: solid 3px rgb(251, 32, 86);  ;
+    
+    width: 50px;
+    height: 20px;
+}
+
+.quote{
+
+    position: absolute;
+    left: 90px;
+    width: 80px;
+    height: 70px;
+
+}
+
+.BLOCK2{
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.BLOCK3{
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.auteur{
+    display: flex;
+    align-items: center;
+
+}
+
+.BLOCK4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.SupportImage{
+    width: 400px;
+    height: 280px;
+    background-color: rgba(128, 128, 128, 0.267);
+}
+
+.imageBlock4{
+    height: 280px;
+    width: 400px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+
+
+.BLOCK5{
+    justify-content: space-around;
+    display: flex;
+}
+
+.BLOCK5_1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.block5_0{
+    width: 425px;
+    text-align: center;
+    
+}
+
+
+.BLOCK5_BUTTON{
+    display:flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.BLOCK6{
+    border: solid black 3px;
+    background-image: url("/images/section-bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display:flex;
+    justify-content: end;
+    background-attachment: fixed;
+}
+
+
+
+.BLOCK6_1{
+    color: white;
+    height: 60%;
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+
+.BLOCK8{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
