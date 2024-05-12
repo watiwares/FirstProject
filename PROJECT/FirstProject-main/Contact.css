@@ -1,0 +1,169 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #DCDCDC;
+}
+
+h1{
+    font-size: 70px
+}
+
+.OUTDOOR{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.filtre{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(87, 81, 81, 0.575);
+    width: 100%;
+}
+
+
+
+.LOGO{
+    background-repeat: no-repeat;
+
+
+    width: 50%;
+    margin-left: 50px;
+}
+
+ul{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+
+.button{
+    margin-top: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    background-color:rgb(251, 32, 86);
+    width: 32%;
+    
+}
+
+.button2{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    background-color:rgb(251, 32, 86)
+
+}
+
+
+
+nav{
+   
+    margin-bottom: 170px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+header{
+    background-image: url("/FirstProject-main/images/photo-haut-page5.jpg");
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.BLOCK1{
+    display: flex;
+    justify-content: center;
+    gap: 50px   ;
+}
+
+
+.BLOCK1LEFT{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.InputMessage{
+   height: 100px; 
+}
+
+.inputYourname_Email{
+    height: 30px;
+}
+
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.logoFTY{
+    background-color:rgb(251, 32, 86);
+    border-radius: 50%;
+    border: solid black 1px;
+    height: 30px;
+    width: 30px;
+}
+
+.LOGO{
+    
+    border: saddlebrown 1px solid;
+    display: flex;
+}
+
+
+.BLOCK3{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    text-align: center;
+}

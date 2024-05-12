@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #DCDCDC;
+}
+
+h1{
+    font-size: 70px
+}
+
+.OUTDOOR{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.filtre{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(87, 81, 81, 0.575);
+    width: 100%;
+}
+
+
+
+.LOGO{
+    background-repeat: no-repeat;
+
+
+    width: 50%;
+    margin-left: 50px;
+}
+
+ul{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+
+.button{
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    background-color:rgb(251, 32, 86)
+}
+
+
+
+nav{
+
+    margin-bottom: 170px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+header{
+    background-image: url("/FirstProject-main/images/fond-page4.jpg");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+
+.BLOCK1{
+    margin-top: 50px;
+    margin-left: 375px;
+}
+
+.BLOCK2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.imageBlock2{
+    width: 365px;
+    height: 394px;
+}
+
+
+.BLOCK3{
+    margin-top: 200px;
+    margin-left: 375px;
+}
+
+.BLOCK4{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+
+.BLOCK5{
+    margin-top: 200px;
+    margin-left: 375px;
+}
+
+.BLOCK6{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.BLOCK7{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}

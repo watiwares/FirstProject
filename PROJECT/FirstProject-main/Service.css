@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url(/FirstProject-main/images/fond-page3.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+.OUTDOOR{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.filtre{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(87, 81, 81, 0.575);
+    width: 100%;
+}
+
+
+
+.LOGO{
+    background-repeat: no-repeat;
+
+
+    width: 50%;
+    margin-left: 50px;
+}
+
+
+
+ul{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+
+nav{
+    margin-bottom: 170px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.button{
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    background-color:rgb(251, 32, 86)
+}
+
+.BLOCK1{
+    border: solid black 1px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.petite_barre{
+    border-top: solid 3px rgb(251, 32, 86);  ;
+    
+    width: 50px;
+    height: 20px;
+}
+
+.ParagrapheBlock1{
+    text-align: center;
+    width: 32%;
+}
+
+
+
+.SupportImage{
+    width: 410px;
+    height: 290px;
+    background-color: rgba(128, 128, 128, 0.267);
+}
+
+
+
+
+
+.BLOCK2{
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    
+}
+
+
+.imageBlock2{
+    height: 280px;
+    width: 400px;
+    
+}
+
+
+
+.ParagrapheBlock3{
+    width: 65%;
+    text-align: center;
+}
+
+
+
+.BLOCK3{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    
+}
+
+
+.BLOCK4{
+    display: flex;
+    justify-content: center;
+    margin-left: 180px
+}
+
+.BLOCK5{
+
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+
+}
+
+.BLOCK6{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+
+}
+
+
+.BLOCK7{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 180px
+    
+}
+
+.BLOCK8{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+
+.BLOCK8RIGHT{
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.BLOCK8LEFT{
+    border: saddlebrown 1px solid;
+    width: 20%;
+}
+
+
+.BLOCK9{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.test{
+    border: saddlebrown 1px solid;
+}
