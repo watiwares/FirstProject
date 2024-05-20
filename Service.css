@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 245, 245);
+
+}
+
+header{
+    background-image: url(/images/fond-page3.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 575px;
+
+}
+
+
+.OUTDOOR{
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.filtre{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(87, 81, 81, 0.575);
+    width: 100%;
+}
+
+
+
+.LOGO{
+    background-repeat: no-repeat;
+
+
+    width: 50%;
+    margin-left: 50px;
+}
+
+
+
+ul{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-family: "noto sans";
+
+}
+
+li{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: "noto sans";
+
+}
+
+h2{
+    font-family: "noto sans";
+    font-size:  40px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+    font-family: "noto sans";
+    
+}
+
+
+nav{
+    margin-bottom: 170px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.button:hover{
+    background-color:rgb(211, 13, 62)
+}
+
+.button{
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    background-color:rgb(251, 32, 86);
+    font-family: "noto sans";
+    font-weight: 700;
+
+
+}
+
+.BLOCK1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.barre{
+    border-top: solid 3px rgb(251, 32, 86);  ;
+    
+    width: 100px;
+    height: 20px;
+
+}
+
+.petite_barre{
+    border-top: solid 3px rgb(251, 32, 86);  ;
+    
+    width: 50px;
+    height: 20px;
+}
+
+.ParagrapheBlock1{
+    text-align: center;
+    width: 60%;
+}
+
+
+
+.BLOCK2{
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+
+    
+}
+
+
+
+
+.imageBlock2{
+    height: 310px;
+    width: 520px;
+    filter: drop-shadow(10px 10px 1px #C0C0C0);
+}
+
+
+
+.ParagrapheBlock4{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.BLOCK3{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.BLOCK3_1{
+    display: flex;
+    width: 520px;
+    height: 80px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+
+    
+}
+
+
+.BLOCK4{
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    gap: 150px;
+    
+}
+
+.BLOCK5{
+
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+
+}
+
+.BLOCK6{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+
+}
+
+.BLOCK6_1{
+    display: flex;
+    width: 520px;
+    height: 80px;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+
+
+    
+}
+
+
+
+
+
+.BLOCK7{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    gap: 150px;
+    
+}
+
+.ParagrapheBlock7{
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.BLOCK8{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 100px;
+
+}
+
+.barre_allongée{
+    font-weight: bolder;
+    font-size: 25px;
+    color: red;
+}
+
+
+.BLOCK8RIGHT{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+}
+
+.BLOCK8LEFT{
+    width: 520px;
+}
+
+
+.BLOCK9{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 162px;
+}

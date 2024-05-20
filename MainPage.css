@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 245, 245);
+
+}
+
+h1{
+    font-size: 70px;
+    font-family: "noto sans";
+    
+}
+
+h2{
+    font-family: "noto sans";
+    font-size: 32px;
+}
+
+h3{
+    font-family: "noto sans";
+    color: white;
+    color: #000;
+
+    
+}
+
+p{
+    font-family: "noto sans";
+    font-size: 100%;
+}
+
+.OUTDOOR{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filtre{
+    height: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(87, 81, 81, 0.575);
+    width: 100%;
+}
+
+
+
+.LOGO{
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 41px;
+}
+
+ul{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    font-family: "noto sans";
+}
+
+li{
+
+    list-style: none;
+}
+
+.button:hover{
+    background-color:rgb(211, 13, 62)
+}
+
+
+.button0{
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    background-color:rgb(251, 32, 86);
+    font-family: "noto sans";
+    font-weight: 700;
+
+
+}
+
+
+
+.button{
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    background-color:rgb(251, 32, 86);
+    font-family: "noto sans";
+    font-weight: 700;
+    margin-left:  100px;
+    margin-right: 100px;
+
+
+}
+
+.button2{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    font-family: "noto sans";
+    font-weight: 700;
+
+
+
+    background-color:rgb(251, 32, 86)
+
+}
+
+.button2:hover{
+    background-color:rgb(211, 13, 62)
+}
+
+.button3:hover{
+    background-color:rgb(211, 13, 62)
+}
+
+.button3{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: white;
+    cursor: pointer;
+    width: 130px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "noto sans";
+    font-weight: 700;
+
+
+
+    background-color:rgb(251, 32, 87)
+
+}
+
+nav{
+
+    margin-bottom: 150px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.Np{
+    font-family: "Noto Sans";
+}
+
+
+
+
+header{
+    background-image: url(/images/hero-bg.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 900px;
+}
+
+.petite_barre{
+    border-top: solid 3px rgb(251, 32, 86);  ;
+    width: 85px;
+}
+
+.quote{
+    
+    position: relative;
+    right: 90px;
+    width: 90px;
+    height: 70px;
+    top: 85px;
+    right: 175px;
+    
+}
+
+.BLOCK2{
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.BLOCK3{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+.auteur{
+    display: flex;
+    align-items: center;
+
+}
+
+.BLOCK4_M{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+    
+}
+
+.BLOCK4_LEFT{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.BLOCK4_RIGHT{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.PB4{
+    margin-bottom: 20px;
+}
+
+
+
+.imageBlock4{
+    height: 285px;
+    width: 480px;
+    filter: drop-shadow(10px 10px 1px #C0C0C0);
+
+}
+
+
+
+
+
+.BLOCK5{
+    display: flex;
+    gap: 200px;
+    text-align: center;
+
+
+    
+}
+
+.BLOCK5_BUTTON{
+    display:flex;
+}
+
+.BLOCK6{
+    background-image: url("/images/section-bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display:flex;
+    justify-content: end;
+    background-attachment: fixed;
+    background-blend-mode:color ;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+
+.Block6Texte{
+    margin-right: 120px;
+}
+
+
+.BLOCK6_1{
+    color: white;
+    height: 60%;
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+.BLOCK7{
+    
+height: 700px;
+display: flex;
+margin-top: 50px;
+justify-content: center;
+}
+
+.H2_BLOCK7{
+    margin-right: 110px;
+}
+
+
+
+
+.BLOCK7_TEXTE{
+    height: 500px;
+    width: 29.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 50px;
+}
+
+
+.BLOCK7_IMAGES{
+    height: 590px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.BLOCK7_IMAGES_LEFT{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    gap: 30px   ;
+
+}
+
+
+.BLOCK7_IMAGES_RIGHT{
+    display: flex;
+    flex-direction: column;
+    gap: 30px   ;
+    height: 97%;
+
+}
+
+.BLOCK7_image1{
+    width: 359px;
+    height: 224px;
+    background-image: url(/images/outdoor-image-01.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.BLOCK7_image3{
+    width: 359px;
+    height: 366px;
+    background-image: url("/images/image-1.jpg");
+    border-radius: 5px;
+    background-size: cover;
+}
+
+
+.BLOCK7_image2{
+    width: 359px;
+    border-radius: 5px;
+    
+    height: 366px;
+    background-image: url("/images/snow-1.jpg");
+}
+
+
+.BLOCK7_image4{
+    width: 359px;
+    border-radius: 5px;
+    height: 207px;
+    background-image: url("/images/outdoor-image-04.jpg");
+}
+
+
+
+
+.BLOCK8{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 162px;
+}
